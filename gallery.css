@@ -28,3 +28,11 @@ html {
   opacity: 0.5;
   user-select: none;
 }
+
+.buttons:hover {
+  opacity: 1.5;
+}
+
+.caption {
+	float: center;
+}
