@@ -28,4 +28,16 @@ $(document).ready(() => {
   			currentImage = 1;
   		}
   	}
+  	// decreasing currentImage by 1 and then re-setting
+  	--currentImage
+  	if(currentImage < 1){
+  		currentImage = totalImages;
+  		}
+  	}
+
+	
+
+
+
+
   	
