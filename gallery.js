@@ -1,6 +1,12 @@
 // document ready function
 $(document).ready(() => {
-	// DEFINE YOUR VARIABLES
+	//define your variables 
+	var currentImage = 1
+	var totalImages = 3;
+	// Previous Image 
+
+
+
 	
 	//  select all the slides means the $ sign (value of the variable will be an array)
 	
