@@ -21,4 +21,11 @@ $(document).ready(() => {
   	$('#im' + currentImage).stop().fadeIn(1);
   });
 
+  	//increasing currentImage by 1 and re-setting
+  	function increaseImage() {
+  		++currentImage;
+  		if(currentImage > totalImages) {
+  			currentImage = 1;
+  		}
+  	}
   	
