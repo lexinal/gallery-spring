@@ -2,16 +2,16 @@ html {
   font-family: serif;
 }
 
-#slideShow {
+#showSlide {
   
-  width: 700px;
+  width: 670px;
   padding: 0;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
 
-.buttons {
+.navButton {
  
   cursor: pointer;
   float: left;
@@ -23,21 +23,21 @@ html {
   text-align: center;
   color: purple;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   background: #000000;
-  opacity: 0.5;
+  opacity: 0.65;
   user-select: none;
 }
 
-.buttons:hover {
-  opacity: 1.5;
+.navButton:hover {
+  opacity: 1;
 }
 
 .caption {
 	float: center;
 }
 
-.slide:not(:first-child) {
+.imageSlide:not(:first-child) {
   display: none;
 }
 /* hide image except the first
