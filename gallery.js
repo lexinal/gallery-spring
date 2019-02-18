@@ -1,7 +1,7 @@
 // document ready function
 $(document).ready(function() {
 	 
-	
+
 	// Change to Previous Image When User Clicks
 	$('#previous').on('click', function(){
 
@@ -14,9 +14,9 @@ $(document).ready(function() {
 	// Change to Next Image When User Clicks
   	$('#next').on('click', function(){
 
-  	$('#im_1' + currentImage).stop().fadeOut(1);
+  	$('#im_' + currentImage).stop().fadeOut(1);
   	increaseImage();
-  	$('#im_2' + currentImage).stop().fadeIn(1);
+  	$('#im_' + currentImage).stop().fadeIn(1);
   });
 
 //define variables
