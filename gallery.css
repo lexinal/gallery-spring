@@ -36,3 +36,8 @@ html {
 .caption {
 	float: center;
 }
+
+.slide:not(:first-child) {
+  display: none;
+}
+/* hide image except the first

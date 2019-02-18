@@ -1,10 +1,8 @@
 // document ready function
-$(document).ready(() => {
-	//define your variables 
-	var currentImage = 1;
-	var totalImages = 3;
+$(document).ready(function() {
+	 
 	
-	// Change for Previous Image When User Clicks
+	// Change to Previous Image When User Clicks
 	$('#previous').on('click', function(){
 
 	$('#im_' + currentImage).stop().fadeOut(1);
@@ -20,6 +18,10 @@ $(document).ready(() => {
   	increaseImage();
   	$('#im_' + currentImage).stop().fadeIn(1);
   });
+
+//define variables
+  	var currentImage = 1;
+	var totalImages = 3;
 
   	//increasing currentImage by 1 and re-setting
   	function increaseImage() {

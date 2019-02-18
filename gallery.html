@@ -3,35 +3,35 @@
 <head>
 	<title>My Spring 2019 gallery</title>
 	<script type="text/javascript" src="gallery.js"></script>
+	<link rel="stylesheet" type="text/css" href="gallery.css">
 </head>
 <body>
 <!-- overall slideshow -->
-<div id ="slideshow">
+<div id ="showSlide">
 	<!-- slide 1-->
-	<div class="slide 1">
-		<h2>Slide </h2>
+	<div class="slide" id="im_1">
+		<h2>The Cutest Pup </h2>
 		<img src="pictures/dog-three.png" alt="This is an image of a cute puppy."/>
-		<div class="caption">This is caption 1.</div>
+		<div class="caption">This puppy is my favorite of all the pup pics.</div>
 	</div> <!--end of slide 1-->
 	<!-- slide 2-->
-	<div class="slide 2">
+	<div class="imageSlide" id="im_2">
 		<h2>Slide </h2>
 		<img src="pictures/dog-one.png" alt="This is an image of a cuter puppy."/>
 		<div class="caption">This is caption 2.</div>
 	</div><!-- end slide 2 -->
 	<!-- slide 3-->
-	<div class="slide 3">
+	<div class="imageSlide" id="im_3">
 		<h2>Slide </h2>
 		<img src="pictures/dog-two.png" alt="This is an image of the cutest puppy."/>
 		<div class="caption">This is caption 3.</div>
 	</div><!-- end slide 3 -->
-</div> <!-- end slideshow -->
 <!-- start buttons -->
 <div class="buttons">
 	<!-- previous button -->
-	<button type="button" class="previous">&#10094;</button>
+	<div class="button" id="previous">&#10094;</div>
 	<!-- next button -->
-	<button type="button" class="next">&#10095;</button>
+	<div class="button" id="next">&#10095;</div>
 </div>
 </body>
 </html>
