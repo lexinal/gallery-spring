@@ -1,6 +1,9 @@
 // document ready function
 $(document).ready(function() {
 	 
+//define variables
+  var currentImage = 1;
+  var totalImages = 3;
 
 	// Change to Previous Image When User Clicks
 	$('#previous').on('click', function(){
@@ -8,7 +11,7 @@ $(document).ready(function() {
 	$('#im_' + currentImage).stop().fadeOut(1);
     decreaseImage();
 
-    $('#im_' + currentImage).stop().fadeIn(1);
+  $('#im_' + currentImage).stop().fadeIn(1);
   }); 
 
 	// Change to Next Image When User Clicks
@@ -18,10 +21,6 @@ $(document).ready(function() {
   	increaseImage();
   	$('#im_' + currentImage).stop().fadeIn(1);
   });
-
-//define variables
-  	var currentImage = 1;
-	var totalImages = 3;
 
   	//increasing currentImage by 1 and re-setting
   	function increaseImage() {
@@ -34,8 +33,8 @@ $(document).ready(function() {
   	function decreaseImage() {
   	--currentImage
   	if(currentImage < 1){
-  		currentImage = totalImages;
-  		}
+  	currentImage = totalImages;
+  	   }
   	}
 
   });

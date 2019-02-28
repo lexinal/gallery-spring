@@ -34,7 +34,7 @@ html {
 }
 
 .caption {
-	float: center;
+  float: center;
 }
 
 .imageSlide:not(:first-child) {
